@@ -1,0 +1,74 @@
+@media (min-width: 700px) {
+  .cheap-layout-container {
+    *zoom: 1;
+    clear: both;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .cheap-layout-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .cheap-layout-gutters {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  .cheap-layout-third {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+  }
+
+  .cheap-layout-two-thirds {
+    float: left;
+    width: 63%;
+    margin-right: 3%;
+  }
+
+  .cheap-layout-third:nth-child(3n+1) {
+    clear: left;
+  }
+
+  .cheap-layout-half {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+  }
+
+  .cheap-layout-half:nth-child(2n+1) {
+    clear: left;
+  }
+
+  .cheap-layout-quarter {
+    float: left;
+    width: 23%;
+  }
+  .cheap-layout-quarter + .cheap-layout-quarter {
+    margin-left: 2%;
+  }
+
+  .cheap-layout-three-quarters {
+    float: left;
+    width: 73%;
+    margin-right: 2%;
+  }
+
+  .cheap-layout-fifth {
+    float: left;
+    width: 18%;
+  }
+  .cheap-layout-fifth + .cheap-layout-fifth {
+    margin-left: 2%;
+  }
+}
+.cheap-layout-leader {
+  margin-top: 1.5em;
+}
+
+.cheap-layout-trailer {
+  margin-bottom: 1.5em;
+}
